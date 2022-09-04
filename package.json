@@ -1,0 +1,33 @@
+{
+  "name": "choten",
+  "version": "1.0.0",
+  "description": "これは Javascript による Discord Bot です。\r Heroku にデプロイすることで無料で 24 時間稼働する Bot を Javascript で作るのが目的です。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/choten.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/rest": "^0.5.0",
+    "discord-api-types": "^0.34.0",
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1",
+    "node-cron": "3.0.0",
+    "undici": "^5.5.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.1"
+  }
+}
